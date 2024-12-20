@@ -55,11 +55,11 @@ function toggleAllBoxes() {
 <body>
 <h2 align='center'>Default test</h2><table border='1' align="center">
 <tr>
-<td>Tests passed/Failed/Skipped:</td><td>0/1/0</td>
+<td>Tests passed/Failed/Skipped:</td><td>2/0/0</td>
 </tr><tr>
-<td>Started on:</td><td>Fri Dec 20 00:28:14 IST 2024</td>
+<td>Started on:</td><td>Fri Dec 20 22:26:54 IST 2024</td>
 </tr>
-<tr><td>Total time:</td><td>1 seconds (1866 ms)</td>
+<tr><td>Total time:</td><td>18 seconds (18806 ms)</td>
 </tr><tr>
 <td>Included groups:</td><td></td>
 </tr><tr>
@@ -67,39 +67,23 @@ function toggleAllBoxes() {
 </tr>
 </table><p/>
 <small><i>(Hover the method name to see the test class name)</i></small><p/>
-<table width='100%' border='1' class='invocation-failed'>
-<tr><td colspan='4' align='center'><b>FAILED TESTS</b></td></tr>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
 <tr><td><b>Test method</b></td>
 <td width="30%"><b>Exception</b></td>
 <td width="10%"><b>Time (seconds)</b></td>
 <td><b>Instance</b></td>
 </tr>
 <tr>
-<td title='runners.GooglePageRunner.runScenario()'><b>runScenario</b><br>Test class: runners.GooglePageRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for a keyword on Google", "Google search functionality"</td>
-<td><div><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at stepDefs.GooglePagestepDefs.user_is_on_the_google_homepage(GooglePagestepDefs.java:22)
-	at ✽.User is on the Google homepage(file:///C:/Users/user/eclipse-workspace/BDDSamples/src/test/resources/features/GooglePageSearch.feature:4)
-</pre></div><a href='#' onClick='toggleBox("stack-trace1316001196", this, "Click to show all stack frames", "Click to hide stack frames")'>Click to show all stack frames</a>
-<div class='stack-trace' id='stack-trace1316001196'><pre>java.lang.IllegalStateException: The path to the driver executable The path to the driver executable must be set by the webdriver.chrome.driver system property; for more information, see https://chromedriver.chromium.org/. The latest version can be downloaded from https://chromedriver.chromium.org/downloads
-	at org.openqa.selenium.internal.Require$StateChecker.nonNull(Require.java:314)
-	at org.openqa.selenium.remote.service.DriverService.findExecutable(DriverService.java:149)
-	at org.openqa.selenium.chrome.ChromeDriverService.access$000(ChromeDriverService.java:42)
-	at org.openqa.selenium.chrome.ChromeDriverService$Builder.findDefaultExecutable(ChromeDriverService.java:315)
-	at org.openqa.selenium.remote.service.DriverService$Builder.build(DriverService.java:456)
-	at org.openqa.selenium.chrome.ChromeDriverService.createDefaultService(ChromeDriverService.java:147)
-	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:50)
-	at stepDefs.GooglePagestepDefs.user_is_on_the_google_homepage(GooglePagestepDefs.java:22)
-	at ✽.User is on the Google homepage(file:///C:/Users/user/eclipse-workspace/BDDSamples/src/test/resources/features/GooglePageSearch.feature:4)
-</pre></div></td>
-<td>1</td>
-<td>runners.GooglePageRunner@55fe41ea</td></tr>
+<td title='runners.GooglePageRunner.runScenario()'><b>runScenario</b><br>Test class: runners.GooglePageRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for "Java" on Google", "Google search functionality"</td>
+<td></td>
+<td>12</td>
+<td>runners.GooglePageRunner@3eb25e1a</td></tr>
+<tr>
+<td title='runners.GooglePageRunner.runScenario()'><b>runScenario</b><br>Test class: runners.GooglePageRunner<br>Test method: Runs Cucumber Scenarios<br>Parameters: "User searches for "Selenium" on Google", "Google search functionality"</td>
+<td></td>
+<td>5</td>
+<td>runners.GooglePageRunner@3eb25e1a</td></tr>
 </table><p>
 </body>
 </html>
