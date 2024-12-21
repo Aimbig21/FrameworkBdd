@@ -37,7 +37,7 @@ package stepDefs;
 	    public void user_searches_for_a_flight_from_to_for_tomorrows_date(String fromCity, String toCity) throws InterruptedException {
 	        // Select "From" city
 	        driver.findElement(By.id("fromCity")).click();
-	        driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys("HYD");
+	        driver.findElement(By.xpath("//input[@placeholder='From']")).sendKeys("HY");
 	        driver.findElement(By.xpath("//p[contains(text(),'" + fromCity + "')]")).click();
 
 	        // Select "To" city
